@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table generator</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30%;
+
+    }
+
+    .btn {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h2>Table Generator</h2>
+        <input type="number" id="number">
+        <div id="result"></div>
+        <div class="btns">
+            <button class="btn" id="Generate">Generate</button>
+            <button class="btn" id="clear">Clear</button>
+        </div>
+    </div>
+</body>
+<script src="table.js"></script>
+
+</html>

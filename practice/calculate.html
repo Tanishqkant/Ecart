@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    input {
+        margin-top: 20px;
+    }
+
+    #add {
+        margin-top: 30px;
+    }
+
+    .btns {
+        margin: 5px;
+    }
+
+    #result {
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h2>Calculate</h2>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <div class="btn-container">
+            <button class="btns" id="add">+</button>
+            <button class="btns" id="sub">-</button>
+            <button class="btns" id="mul">*</button>
+            <button class="btns" id="divide">/</button>
+            <button class="btns" id="clear">C</button>
+        </div>
+        <div id="result"></div>
+    </div>
+</body>
+<script src="calculate.js"></script>
+
+</html>
