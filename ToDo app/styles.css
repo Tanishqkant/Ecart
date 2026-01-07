@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+.container {
+  border: 2px solid #000; /* Black border with a thickness of 2px */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Space inside the border */
+  margin: 20px auto; /* Center the container on the page */
+  max-width: 600px; /* Limit the width */
+  background-color: #f9f9f9; /* Optional: Add a light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text content */
+}
+
+li {
+  /* border: 1px solid red; */
+  margin-top: 8px;
+  overflow: hidden;
+  padding: 10px 10px;
+}
+button {
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+span {
+  background-color: darkgrey;
+  padding: 10px;
+  border-radius: 3px;
+}
+span:hover {
+  background-color: dimgrey;
+  color: red;
+}

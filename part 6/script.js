@@ -63,7 +63,8 @@ document
     console.log(feedback);
     document.getElementById(
       "feedbackDisplay"
-    ).textContent = `FeedBack is :${feedback}`;
+    ).textContent = `FeedBack is : ${feedback}`;
+    document.getElementById("feedbackDisplay").style.color = "red";
   });
 // how to grab the lable ?
 // feedback text bigger and change bg color
